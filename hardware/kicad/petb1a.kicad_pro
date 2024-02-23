@@ -440,7 +440,7 @@
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.243,
+        "track_width": 0.1664,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -451,7 +451,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/D_OUT+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/D_OUT-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
