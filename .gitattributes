@@ -1,3 +1,5 @@
 hardware/kicad/library/3dmodels filter=lfs diff=lfs merge=lfs -text
 hardware/kicad/library/3dmodels/KEY-SMD_2P-L3.0-W2.5-H1.6-LS4.0.wrl filter=lfs diff=lfs merge=lfs -text
 hardware/kicad/library/3dmodels/USB-C-SMD_TYPE-C-16P-1.wrl filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/BME680.step filter=lfs diff=lfs merge=lfs -text
+hardware/kicad/library/3dmodels/SM04B-SRSS-TB.STEP filter=lfs diff=lfs merge=lfs -text
