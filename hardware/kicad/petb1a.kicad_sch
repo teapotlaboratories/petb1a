@@ -1867,151 +1867,6 @@
 				)
 			)
 		)
-		(symbol "Diode:MBR0540"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MBR0540"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 0.5A Schottky Power Rectifier Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MBR0540_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MBR0540_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_names
@@ -4198,126 +4053,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -4566,7 +4301,7 @@
 		(uuid "4d4c685e-4d1f-4f3f-8f98-deddf4544519")
 	)
 	(junction
-		(at 207.01 30.48)
+		(at 203.2 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51f7c152-ba30-4940-81aa-c3d46bebe288")
@@ -4584,7 +4319,7 @@
 		(uuid "692a7704-1258-48fc-a523-97b9af1a6895")
 	)
 	(junction
-		(at 162.56 30.48)
+		(at 158.75 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a5ae367-fc41-4dfe-9e17-7f6482cbf74a")
@@ -4626,7 +4361,7 @@
 		(uuid "acdb87e5-b1e2-4894-acba-5d8012e3c2ca")
 	)
 	(junction
-		(at 167.64 30.48)
+		(at 163.83 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8a16567-c871-43dd-8800-fb99b00ffe3f")
@@ -4825,7 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 30.48) (xy 213.36 27.94)
+			(xy 209.55 31.75) (xy 209.55 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4915,7 +4650,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 36.83) (xy 162.56 38.1)
+			(xy 158.75 38.1) (xy 158.75 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +4690,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 30.48) (xy 207.01 27.94)
+			(xy 203.2 31.75) (xy 203.2 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5015,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 30.48) (xy 167.64 30.48)
+			(xy 158.75 31.75) (xy 163.83 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5135,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 78.74) (xy 154.305 78.74)
+			(xy 155.575 80.01) (xy 153.035 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 156.845 76.2)
+			(xy 146.05 77.47) (xy 155.575 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5235,17 +4970,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 30.48) (xy 162.56 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4edbba42-b8a4-485d-9587-0a8cb7e7f5fd")
-	)
-	(wire
-		(pts
-			(xy 154.305 78.74) (xy 154.305 80.01)
+			(xy 153.035 80.01) (xy 153.035 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5285,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 30.48) (xy 213.36 30.48)
+			(xy 203.2 31.75) (xy 209.55 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5345,7 +5070,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 35.56) (xy 167.64 30.48)
+			(xy 163.83 36.83) (xy 163.83 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5425,7 +5150,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 30.48) (xy 176.53 30.48)
+			(xy 163.83 31.75) (xy 172.72 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5515,7 +5240,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 73.66) (xy 156.845 73.66)
+			(xy 148.59 74.93) (xy 155.575 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5525,7 +5250,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 30.48) (xy 207.01 31.75)
+			(xy 203.2 31.75) (xy 203.2 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5595,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 35.56) (xy 170.18 35.56)
+			(xy 163.83 36.83) (xy 166.37 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5725,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 36.83) (xy 207.01 38.1)
+			(xy 203.2 38.1) (xy 203.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5845,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 147.32 76.2)
+			(xy 146.05 74.93) (xy 146.05 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5855,7 +5580,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 71.12) (xy 156.845 71.12)
+			(xy 148.59 72.39) (xy 155.575 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5885,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 43.18) (xy 189.23 45.085)
+			(xy 185.42 44.45) (xy 185.42 46.355)
 		)
 		(stroke
 			(width 0)
@@ -6035,7 +5760,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 30.48) (xy 207.01 30.48)
+			(xy 198.12 31.75) (xy 203.2 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6075,7 +5800,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 30.48) (xy 147.32 30.48)
+			(xy 148.59 31.75) (xy 158.75 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6125,7 +5850,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 30.48) (xy 162.56 31.75)
+			(xy 158.75 31.75) (xy 158.75 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6145,7 +5870,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 25.4) (xy 144.78 30.48)
+			(xy 148.59 26.67) (xy 148.59 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6245,17 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 26.67) (xy 167.64 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7bb2183-18b2-4b1e-a692-a71dbb413e73")
-	)
-	(wire
-		(pts
-			(xy 175.26 35.56) (xy 176.53 35.56)
+			(xy 171.45 36.83) (xy 172.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6473,6 +6188,17 @@
 		)
 		(uuid "313de682-f598-4ea4-b7aa-26cc168a2cd1")
 	)
+	(text "RED"
+		(exclude_from_sim no)
+		(at 257.81 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3607ecc0-5467-4392-9850-0a3dd61129b0")
+	)
 	(text "Boot Button"
 		(exclude_from_sim no)
 		(at 252.095 118.11 0)
@@ -6614,6 +6340,17 @@
 			(justify left bottom)
 		)
 		(uuid "eb5744e1-6d4d-4bb4-9858-0543aa29336a")
+	)
+	(text "GREEN"
+		(exclude_from_sim no)
+		(at 257.048 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ece758b8-672d-4fd7-9856-956f90469aa2")
 	)
 	(label "GPIO1"
 		(at 190.5 78.74 180)
@@ -6847,7 +6584,7 @@
 		(uuid "75515323-5379-4582-ba3f-3039d6b1d8e4")
 	)
 	(label "GPIO12"
-		(at 149.86 71.12 0)
+		(at 148.59 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6869,7 +6606,7 @@
 		(uuid "838edf7e-483c-4518-a33d-9dfc4cd2d3da")
 	)
 	(label "GPIO11"
-		(at 149.86 73.66 0)
+		(at 148.59 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7156,7 +6893,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 147.32 73.66 0)
+		(at 146.05 74.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7165,7 +6902,7 @@
 		(dnp no)
 		(uuid "00a0c4d6-0e47-4d08-8114-5b99c5725434")
 		(property "Reference" "#PWR031"
-			(at 147.32 77.47 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +6911,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 140.97 72.39 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +6920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 73.66 0)
+			(at 146.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +6929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 73.66 0)
+			(at 146.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +6938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 73.66 0)
+			(at 146.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,16 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 73.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "ESD Protection 6V 17V 2 Unidirectional 5.25V"
+		(property "Description" "ESD Protection 6V 17V 2 Unidirectional 5.25V"
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -7482,16 +7210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ferrite Beads 400mΩ ±25% 600Ω@100MHz"
+		(property "Description" "Ferrite Beads 400mΩ ±25% 600Ω@100MHz"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -7562,7 +7281,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 144.78 25.4 0)
+		(at 148.59 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7570,7 +7289,7 @@
 		(dnp no)
 		(uuid "0d5cc533-a237-4c5c-9a76-ad9059360e72")
 		(property "Reference" "#PWR015"
-			(at 144.78 29.21 0)
+			(at 148.59 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7298,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 144.78 21.59 0)
+			(at 148.59 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 25.4 0)
+			(at 148.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 25.4 0)
+			(at 148.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 25.4 0)
+			(at 148.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +7485,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 162.56 34.29 0)
+		(at 158.75 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7775,7 +7494,7 @@
 		(dnp no)
 		(uuid "17453a62-e220-473d-9b18-addd220445b6")
 		(property "Reference" "C5"
-			(at 160.02 33.0263 0)
+			(at 156.21 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7503,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 160.02 35.5663 0)
+			(at 156.21 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +7512,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 162.56 34.29 0)
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +7521,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-			(at 162.56 34.29 0)
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,17 +7529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitor 10V 10uF X5R ±10%"
-			(at 162.56 34.29 0)
+		(property "Description" "Ceramic Capacitor 10V 10uF X5R ±10%"
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +7539,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 162.56 34.29 0)
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7548,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
-			(at 162.56 34.29 0)
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +7557,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 162.56 34.29 0)
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +7566,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C19702"
-			(at 162.56 34.29 0)
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +7575,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
-			(at 162.56 34.29 0)
+			(at 158.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7600,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.305 80.01 0)
+		(at 153.035 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7899,7 +7609,7 @@
 		(fields_autoplaced yes)
 		(uuid "183522d8-a684-4b12-ac9f-52d75cefb1d4")
 		(property "Reference" "#PWR032"
-			(at 154.305 86.36 0)
+			(at 153.035 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7618,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.305 85.09 0)
+			(at 153.035 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.305 80.01 0)
+			(at 153.035 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +7635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.305 80.01 0)
+			(at 153.035 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +7644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.305 80.01 0)
+			(at 153.035 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +7818,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 172.72 35.56 90)
+		(at 168.91 36.83 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8117,7 +7827,7 @@
 		(dnp no)
 		(uuid "23b2dbd2-7c0d-49ec-bcbd-6ae9971b41fd")
 		(property "Reference" "R3"
-			(at 170.18 38.1 90)
+			(at 166.37 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +7835,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 175.26 38.1 90)
+			(at 171.45 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +7843,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 35.56 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +7852,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 172.72 35.56 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,17 +7860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 172.72 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 62.5mW ±1% 5.1kΩ"
-			(at 172.72 35.56 90)
+		(property "Description" "Resistor 62.5mW ±1% 5.1kΩ"
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +7870,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 172.72 35.56 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +7879,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5101TCE"
-			(at 172.72 35.56 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +7888,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 172.72 35.56 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +7897,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C25905"
-			(at 172.72 35.56 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +7906,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.html"
-			(at 172.72 35.56 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,16 +8062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 142.24 160.02 0)
 			(effects
 				(font
@@ -8442,7 +8134,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 207.01 38.1 0)
+		(at 203.2 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8451,7 +8143,7 @@
 		(fields_autoplaced yes)
 		(uuid "35d531f7-411c-41d2-9f3d-1149788d2aae")
 		(property "Reference" "#PWR023"
-			(at 207.01 44.45 0)
+			(at 203.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +8152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 42.545 0)
+			(at 203.2 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8468,7 +8160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 38.1 0)
+			(at 203.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 38.1 0)
+			(at 203.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,7 +8178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 38.1 0)
+			(at 203.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,7 +8200,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 161.925 76.2 0)
+		(at 160.655 77.47 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8517,7 +8209,7 @@
 		(dnp no)
 		(uuid "3771ec82-2774-4978-b029-d5faf3461447")
 		(property "Reference" "J4"
-			(at 164.211 71.374 0)
+			(at 162.941 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,8 +8217,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Qwiic"
-			(at 164.211 73.66 0)
+		(property "Value" " SM04B-SRSS-TB(LF)(SN)"
+			(at 145.034 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8227,7 @@
 			)
 		)
 		(property "Footprint" "petb1a:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 161.925 76.2 0)
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8236,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_JST-Sales-America-SM04B-SRSS-TB-LF-SN_C160404.pdf"
-			(at 161.925 76.2 0)
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,8 +8244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 161.925 76.2 0)
+		(property "Description" "Right Angle Wire To Board 1x4P 4P 1mm 1A"
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,8 +8253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST Sales America"
-			(at 161.925 76.2 0)
+		(property "Manufacturer" "JST"
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,8 +8262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SM04B-SRSS-TB"
-			(at 161.925 76.2 0)
+		(property "Manufacturer Part Number" "SM04B-SRSS-TB(LF)(SN)"
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,8 +8271,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
-			(at 161.925 76.2 0)
+		(property "Distributor" "LCSC"
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,8 +8280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 161.925 76.2 0)
+		(property "Distributor Part Number" "C160404"
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,26 +8289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 161.925 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
-			(at 161.925 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
-			(at 161.925 76.2 0)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html"
+			(at 160.655 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,16 +8430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 34.29 186.69 0)
 			(effects
 				(font
@@ -8878,17 +8543,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable Fuses 6V 750mA 40A 1.5A"
 			(at 112.395 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resettable Fuses 6V 750mA 40A 1.5A"
-			(at 112.395 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,17 +8677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 62.5mW ±1% 5.1kΩ"
 			(at 48.895 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 62.5mW ±1% 5.1kΩ"
-			(at 48.895 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,16 +8814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 23.495 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitor 10V 10uF X5R ±10%"
+		(property "Description" "Ceramic Capacitor 10V 10uF X5R ±10%"
 			(at 23.495 149.86 0)
 			(effects
 				(font
@@ -9291,16 +8929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitors 50V 10nF X7R ±10%"
+		(property "Description" "Ceramic Capacitors 50V 10nF X7R ±10%"
 			(at 86.36 31.75 0)
 			(effects
 				(font
@@ -9692,7 +9321,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 213.36 27.94 0)
+		(at 209.55 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9700,7 +9329,7 @@
 		(dnp no)
 		(uuid "559c0500-5860-4fbf-a35c-acaff6313777")
 		(property "Reference" "TP3"
-			(at 211.455 19.685 0)
+			(at 207.645 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9338,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 210.82 22.225 0)
+			(at 207.01 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9347,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 218.44 27.94 0)
+			(at 214.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,7 +9356,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 27.94 0)
+			(at 214.63 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9736,7 +9365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,7 +9374,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 213.36 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,7 +9383,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 213.36 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +9392,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 213.36 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +9401,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 213.36 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +9410,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 213.36 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +9419,7 @@
 			)
 		)
 		(property "Distributor Link" ""
-			(at 213.36 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9464,7 @@
 		(dnp no)
 		(uuid "5711f9bf-3f84-465a-a842-2250782a955b")
 		(property "Reference" "C9"
-			(at 185.42 100.33 0)
+			(at 187.452 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +9473,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 187.96 100.33 0)
+			(at 193.04 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +9490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809272047_Murata-Electronics-GRM155R71H104KE14D_C77020.pdf?_gl=1*k6cdpr*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTA2ODY3My41OS4xLjE3MDkwNjg3MTcuMTYuMC4w"
 			(at 186.69 106.68 0)
 			(effects
 				(font
@@ -9870,7 +9499,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ceramic Capacitors 50V 100nF X7R"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C77020"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM155R71H104KE14D_C77020.html"
 			(at 186.69 106.68 0)
 			(effects
 				(font
@@ -9976,71 +9650,6 @@
 			(project "Penguino-STM32WL-LoRa-E5"
 				(path "/c338af29-f8d9-4513-836a-55ed8bfc47d3"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 167.64 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c9d2660-7678-45bd-9418-afb7063f4dce")
-		(property "Reference" "#PWR019"
-			(at 167.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 169.545 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c33fbc6b-50a3-409c-b455-01743afae02c")
-		)
-		(instances
-			(project "petb1a"
-				(path "/49d9aebd-21bf-41a7-8089-6b24e56d35f6"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10225,16 +9834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitors 10V 1uF X7R ±10%"
+		(property "Description" "Ceramic Capacitors 10V 1uF X7R ±10%"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -10324,7 +9924,7 @@
 		(dnp no)
 		(uuid "60b0b7b3-cad1-4707-b218-2834cdf2f03b")
 		(property "Reference" "R8"
-			(at 203.2 120.65 0)
+			(at 201.93 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,7 +9933,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 205.74 120.015 0)
+			(at 206.502 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,16 +9959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 204.47 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 204.47 118.11 0)
 			(effects
 				(font
@@ -10560,16 +10151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 248.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Tactile Switches 2.5mm 1.5mm 3mm SMD,2.5x3mm "
+		(property "Description" "Tactile Switches 2.5mm 1.5mm 3mm SMD,2.5x3mm "
 			(at 248.92 104.14 0)
 			(effects
 				(font
@@ -10756,16 +10338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.175 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Tactile Switches 2.5mm 1.5mm 3mm SMD,2.5x3mm "
+		(property "Description" "Tactile Switches 2.5mm 1.5mm 3mm SMD,2.5x3mm "
 			(at 257.175 51.435 0)
 			(effects
 				(font
@@ -10908,133 +10481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0540")
-		(at 151.13 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77551a1f-0d53-4f4f-93d2-73860d117c5b")
-		(property "Reference" "D2"
-			(at 151.13 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W"
-			(at 151.13 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 151.13 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2308231034_MDD-Microdiode-Electronics--B5819W_C64885.pdf"
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SBD 40V 600mV@1A"
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MDD（Microdiode Electronics)"
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "B5819W"
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "C64885"
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-B5819W_C64885.html"
-			(at 151.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "176790c3-a139-4ee2-a786-413225645713")
-		)
-		(pin "2"
-			(uuid "4d06b11d-72f1-44f5-8c14-6f343e52aa77")
-		)
-		(instances
-			(project "petb1a"
-				(path "/49d9aebd-21bf-41a7-8089-6b24e56d35f6"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "feather_rak3172"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 246.38 144.78 270)
 		(mirror x)
@@ -11069,7 +10515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0603FR-071KL_C22548.pdf?_gl=1*178kxvu*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTA2ODY3My41OS4xLjE3MDkwNjg4NzEuNTQuMC4w"
 			(at 246.38 144.78 0)
 			(effects
 				(font
@@ -11078,7 +10524,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 100mW 75V ±1% 1kΩ"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C22548"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-071KL_C22548.html"
 			(at 246.38 144.78 0)
 			(effects
 				(font
@@ -11215,7 +10706,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WiFi Modules ESP32-S3 "
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ESP32-S3-WROOM-1-N16R8 "
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C2913202"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/WiFi-Modules_Espressif-Systems-ESP32-S3-WROOM-1-N16R8_C2913202.html"
 			(at 83.82 146.05 0)
 			(effects
 				(font
@@ -11367,7 +10903,7 @@
 		(dnp no)
 		(uuid "814bc28b-5c1e-470e-8e3c-1b407d8ab116")
 		(property "Reference" "C10"
-			(at 170.18 100.33 0)
+			(at 168.656 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +10912,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 172.72 100.33 0)
+			(at 175.006 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809272047_Murata-Electronics-GRM155R71H104KE14D_C77020.pdf?_gl=1*k6cdpr*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTA2ODY3My41OS4xLjE3MDkwNjg3MTcuMTYuMC4w"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -11402,7 +10938,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ceramic Capacitors 50V 100nF X7R"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C77020"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM155R71H104KE14D_C77020.html"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -11481,7 +11062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "Bosch Sensortec"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -11490,7 +11071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "BME688"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -11499,7 +11080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -11508,7 +11089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor Part Number" "C3664478"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -11517,16 +11098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
-			(at 179.07 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Temperature-and-Humidity-Sensor_Bosch-Sensortec-BME688_C3664478.html"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -11778,7 +11350,7 @@
 		(dnp no)
 		(uuid "8ab744ae-3028-42ed-acee-36c60c5766a3")
 		(property "Reference" "R9"
-			(at 203.2 135.89 0)
+			(at 201.93 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11787,7 +11359,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 205.74 135.255 0)
+			(at 206.502 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,16 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 204.47 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -12091,16 +11654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitor 50V 100nF X7R ±10%"
+		(property "Description" "Ceramic Capacitor 50V 100nF X7R ±10%"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -12246,15 +11800,15 @@
 		(dnp no)
 		(uuid "9c5e5244-a75b-424c-ae22-199448ba6b40")
 		(property "Reference" "D4"
-			(at 253.365 140.97 0)
+			(at 253.746 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 257.81 140.97 0)
+		(property "Value" "NCD0603C4"
+			(at 262.128 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +11824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306200951_Foshan-NationStar-Optoelectronics-NCD0603C4_C7429911.pdf?_gl=1*1o9ry63*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTA2ODY3My41OS4xLjE3MDkwNzAwMzEuNjAuMC4w"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12279,7 +11833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED Green-yellow 140° 65mW 1.6V~2.6V"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12288,7 +11842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12297,7 +11851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "NCD0603C4"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12306,7 +11860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12315,7 +11869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor Part Number" "C7429911"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12324,16 +11878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
-			(at 255.27 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_Foshan-NationStar-Optoelectronics-NCD0603C4_C7429911.html"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12402,16 +11947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 142.24 149.86 0)
 			(effects
 				(font
@@ -12526,16 +12062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 240.03 90.17 0)
 			(effects
 				(font
@@ -12626,7 +12153,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 207.01 27.94 0)
+		(at 203.2 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12634,7 +12161,7 @@
 		(dnp no)
 		(uuid "a0ee83a0-caec-4b5f-87b6-57ae48c72b40")
 		(property "Reference" "#PWR022"
-			(at 207.01 31.75 0)
+			(at 203.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12643,7 +12170,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 203.835 24.13 0)
+			(at 200.025 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12651,7 +12178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 27.94 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12660,7 +12187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 27.94 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +12196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 27.94 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,16 +12261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitors 10V 1uF X7R ±10%"
+		(property "Description" "Ceramic Capacitors 10V 1uF X7R ±10%"
 			(at 241.3 50.8 0)
 			(effects
 				(font
@@ -13063,7 +12581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0603FR-071KL_C22548.pdf?_gl=1*178kxvu*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTA2ODY3My41OS4xLjE3MDkwNjg4NzEuNTQuMC4w"
 			(at 246.38 135.89 0)
 			(effects
 				(font
@@ -13072,7 +12590,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 100mW 75V ±1% 1kΩ"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "C22548"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-071KL_C22548.html"
 			(at 246.38 135.89 0)
 			(effects
 				(font
@@ -13105,7 +12668,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 189.23 45.085 0)
+		(at 185.42 46.355 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13114,7 +12677,7 @@
 		(fields_autoplaced yes)
 		(uuid "af48c582-7d2b-4671-a912-0860653f87de")
 		(property "Reference" "#PWR021"
-			(at 189.23 51.435 0)
+			(at 185.42 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +12686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 49.53 0)
+			(at 185.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13131,7 +12694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 45.085 0)
+			(at 185.42 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13140,7 +12703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 45.085 0)
+			(at 185.42 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13149,7 +12712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 45.085 0)
+			(at 185.42 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +12811,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 207.01 34.29 0)
+		(at 203.2 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13257,7 +12820,7 @@
 		(dnp no)
 		(uuid "ba5f89c5-bbe4-437f-8f3d-0c07f3888e49")
 		(property "Reference" "C6"
-			(at 204.47 33.0263 0)
+			(at 200.66 34.2963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +12829,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 204.47 35.5663 0)
+			(at 200.66 36.8363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +12838,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 207.01 34.29 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +12847,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-			(at 207.01 34.29 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13292,17 +12855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 207.01 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitor 10V 10uF X5R ±10%"
-			(at 207.01 34.29 0)
+		(property "Description" "Ceramic Capacitor 10V 10uF X5R ±10%"
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +12865,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 207.01 34.29 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +12874,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
-			(at 207.01 34.29 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,7 +12883,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 207.01 34.29 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13338,7 +12892,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C19702"
-			(at 207.01 34.29 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +12901,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.html"
-			(at 207.01 34.29 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,16 +13053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 34.29 172.72 0)
 			(effects
 				(font
@@ -13622,16 +13167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 65.405 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "ESD 9.4A 18.6V 5.6V Bi-Directional 5V"
+		(property "Description" "ESD 9.4A 18.6V 5.6V Bi-Directional 5V"
 			(at 65.405 31.115 0)
 			(effects
 				(font
@@ -13811,7 +13347,7 @@
 		(dnp no)
 		(uuid "c15e7833-c236-48a9-928d-fb01fb792d14")
 		(property "Reference" "J2"
-			(at 171.704 76.708 0)
+			(at 174.244 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13819,8 +13355,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EXP1"
-			(at 174.244 78.994 0)
+		(property "Value" " SM04B-SRSS-TB(LF)(SN)"
+			(at 189.484 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,7 +13382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Right Angle Wire To Board 1x4P 4P 1mm 1A"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -13855,7 +13391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST Sales America"
+		(property "Manufacturer" "JST"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -13864,7 +13400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SM04B-SRSS-TB"
+		(property "Manufacturer Part Number" "SM04B-SRSS-TB(LF)(SN)"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -13873,7 +13409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Distributor" "LCSC"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -13882,7 +13418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Part Number" "C160404"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -13891,25 +13427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 176.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
-			(at 176.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -14142,7 +13660,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 162.56 38.1 0)
+		(at 158.75 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14151,7 +13669,7 @@
 		(fields_autoplaced yes)
 		(uuid "c486fb58-2fde-45b4-aa43-b0025e964f41")
 		(property "Reference" "#PWR017"
-			(at 162.56 44.45 0)
+			(at 158.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14160,7 +13678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 42.545 0)
+			(at 158.75 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,7 +13686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 38.1 0)
+			(at 158.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +13695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 38.1 0)
+			(at 158.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +13704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 38.1 0)
+			(at 158.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,14 +13735,14 @@
 		(dnp no)
 		(uuid "cc6d0cda-c625-43c6-b2be-d86c88e60a32")
 		(property "Reference" "D3"
-			(at 253.365 132.08 0)
+			(at 250.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "XL-1608SURC-06"
 			(at 257.81 132.08 0)
 			(effects
 				(font
@@ -14241,7 +13759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2402181505_XINGLIGHT-XL-1608SURC-06_C965799.pdf?_gl=1*1gfywkh*_ga*MTY2MjYzODk0OS4xNjk1MzQ0NTg0*_ga_98M84MKSZH*MTcwOTA2ODY3My41OS4xLjE3MDkwNzAwMzEuNjAuMC4w"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -14250,7 +13768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED Red 120° 55mW 25mA "
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -14259,7 +13777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Manufacturer" "XINGLIGHT"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -14268,7 +13786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "XL-1608SURC-06"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -14277,7 +13795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor" "LCSC"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -14286,7 +13804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor Part Number" "C965799"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -14295,16 +13813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_XINGLIGHT-XL-1608SURC-06_C965799.html"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -14380,16 +13889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistors 62.5mW ±1% 10kΩ"
+		(property "Description" "Resistors 62.5mW ±1% 10kΩ"
 			(at 241.3 36.83 0)
 			(effects
 				(font
@@ -14521,17 +14021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 62.5mW ±1% 5.1kΩ"
 			(at 48.895 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 62.5mW ±1% 5.1kΩ"
-			(at 48.895 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14755,16 +14246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 30.48 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Ceramic Capacitor 50V 100nF X7R ±10%"
+		(property "Description" "Ceramic Capacitor 50V 100nF X7R ±10%"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -15170,16 +14652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Type-C SMD 3A 1 Surface Mount，Right Angle 16P Female"
+		(property "Description" "Type-C SMD 3A 1 Surface Mount，Right Angle 16P Female"
 			(at 29.21 41.91 0)
 			(effects
 				(font
@@ -15303,7 +14776,7 @@
 		(dnp no)
 		(uuid "ea33eb5e-5eb6-4e18-b191-c1dcdde13edc")
 		(property "Reference" "J3"
-			(at 195.834 76.708 0)
+			(at 198.628 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,8 +14784,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EXP2"
-			(at 198.374 78.994 0)
+		(property "Value" " SM04B-SRSS-TB(LF)(SN)"
+			(at 216.408 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15338,7 +14811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Right Angle Wire To Board 1x4P 4P 1mm 1A"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -15347,7 +14820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST Sales America"
+		(property "Manufacturer" "JST"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -15356,7 +14829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SM04B-SRSS-TB"
+		(property "Manufacturer Part Number" "SM04B-SRSS-TB(LF)(SN)"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -15365,7 +14838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Distributor" "LCSC"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -15374,7 +14847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Distributor Part Number" "C160404"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -15383,25 +14856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 200.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" ""
-			(at 200.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -15692,7 +15147,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:XC6220B331MR")
-		(at 189.23 33.02 0)
+		(at 185.42 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15701,7 +15156,7 @@
 		(fields_autoplaced yes)
 		(uuid "feda743a-8121-4bcd-b820-9740fe89691a")
 		(property "Reference" "U3"
-			(at 189.23 22.86 0)
+			(at 185.42 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15709,7 +15164,7 @@
 			)
 		)
 		(property "Value" "XC6220B331MR-G"
-			(at 189.23 25.4 0)
+			(at 185.42 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15717,7 +15172,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 189.23 33.02 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +15181,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810010324_Torex-Semicon-XC6220B331MR-G_C86534.pdf"
-			(at 208.28 58.42 0)
+			(at 204.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,17 +15189,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "LDO 50dB@(1kHz) 1A Fixed 3.3V Positive"
-			(at 189.23 33.02 0)
+		(property "Description" "LDO 50dB@(1kHz) 1A Fixed 3.3V Positive"
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +15199,7 @@
 			)
 		)
 		(property "Manufacturer" "Torex Semicon"
-			(at 189.23 33.02 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +15208,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "XC6220B331MR-G"
-			(at 189.23 33.02 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15771,7 +15217,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 189.23 33.02 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15780,7 +15226,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C86534"
-			(at 189.23 33.02 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15789,7 +15235,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Torex-Semicon-XC6220B331MR-G_C86534.html"
-			(at 189.23 33.02 0)
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,31 @@
+Thickness = 1.6mm
+
+--------------------
+
+Size: 0.0 x 0.0mm
+Number of layers: 4
+Material: TG150-160 FR-4
+
+Min. track/spacing: 5/5mil
+Min. hole size: 0.3mm
+
+Solder mask: Red
+Silkscreen: White
+
+--------------------
+
+SUGGESTED STACK-UP
+
+L1	Copper		1oz					petb1a-F_Cu.gbr
+
+	Prepreg		0.11mm		Dk=4.29 (2116)
+
+L2	Copper		1oz					petb1a-In1_Cu.gbr
+
+	Core		Core 1.2mm
+
+L3	Copper		1oz					petb1a-In2_Cu.gbr
+
+	Prepreg		0.11mm		Dk=4.29 (2116)
+
+L4	Copper		1oz					petb1a-B_Cu.gbr
